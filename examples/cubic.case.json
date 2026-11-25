@@ -1,0 +1,17 @@
+{
+  "schema": "poincare.case/v1",
+  "honesty": "Teaching Poincare nonlinear-dynamics case — not Modelica, not certified SIL.",
+  "plant": "cubic",
+  "method": "rk4",
+  "dt_s": 0.01,
+  "t_end_s": 10.0,
+  "mass": 1.0,
+  "spring": 1.0,
+  "damping": 0.1,
+  "cubic": 0.5,
+  "length": 1.0,
+  "inverted_pendulum": false,
+  "x0": 1.0,
+  "v0": 0.0,
+  "u": 0.0
+}

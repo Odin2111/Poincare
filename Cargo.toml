@@ -1,0 +1,19 @@
+[package]
+name = "poincare"
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+description = "Teaching nonlinear dynamics kernels for Odin apps (Madar / Controller / ThermoFlow). Orchestrate is courier only — not a solver host."
+repository = "https://github.com/Odin2111/Poincare"
+
+[dependencies]
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+
+[lib]
+name = "poincare"
+path = "src/lib.rs"
+
+[[bin]]
+name = "poincare_demo"
+path = "src/bin/demo.rs"
